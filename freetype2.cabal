@@ -191,6 +191,10 @@ Library
     -O1
     -Wall
 
+  if os(darwin)
+    pkgconfig-depends: zlib
+    cc-options: -DFT_CONFIG_OPTION_SYSTEM_ZLIB
+
   include-dirs: freetype2/include
                 freetype2/include/freetype
                 freetype2/include/freetype/config
