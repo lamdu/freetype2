@@ -194,28 +194,7 @@ Library
   include-dirs: freetype2/include
                 freetype2/include/freetype
                 freetype2/include/freetype/config
-                freetype2/src/base
-                freetype2/src/truetype
-                freetype2/src/type1
-                freetype2/src/cff
-                freetype2/src/cid
-                freetype2/src/pfr
-                freetype2/src/type42
-                freetype2/src/winfonts
-                freetype2/src/pcf
-                freetype2/src/bdf
-                freetype2/src/sfnt
-                freetype2/src/autofit
-                freetype2/src/pshinter
-                freetype2/src/raster
-                freetype2/src/smooth
-                freetype2/src/cache
-                freetype2/src/gzip
-                freetype2/src/lzw
-                freetype2/src/psaux
-                freetype2/src/psnames
                 freetype2-plus/include
-                freetype2-plus/src
 
   cc-options: -DFT_CONFIG_CONFIG_H=<ftconfig.h>
               -DFT2_BUILD_LIBRARY
